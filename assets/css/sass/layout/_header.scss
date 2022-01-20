@@ -1,0 +1,28 @@
+
+.navbar{
+    padding: 0;
+}
+
+.navbar-brand{
+    background: $smokyblack;
+    color:$white !important;
+    font-family: $oldstandardtt;
+    font-weight: 700;
+    height: 60px;
+    width: 60px;
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+
+    :hover{
+        color:white
+    }
+}
+.nav-link{
+    color: $smokyblack !important;
+    &:hover{
+        color: black;
+    }
+}

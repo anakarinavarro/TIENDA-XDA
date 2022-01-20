@@ -1,0 +1,39 @@
+.footer{
+    background-color: black;
+    color: $isabelline;
+    font-family:$oldstandardtt ;
+    font-weight: $font-regular;
+    height: 265px;
+    h4{
+        margin-left: 20px;
+        padding: 20px;
+        text-align: left;
+    }
+    h6{
+
+        margin-left: 20px;
+        padding: 20px;
+        text-align: left;
+    }
+
+}
+.vertical{
+        
+    background-color: $white;
+    color: black;
+    font-family: $raleway;
+    font-weight: $font-regular;
+    font-size: $x-large;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    h6{
+        writing-mode: vertical-lr;
+        margin: 0px;
+        font-family: $oldstandardtt;
+        text-align: center;
+
+        
+    }
+   
+}

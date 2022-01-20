@@ -1,0 +1,41 @@
+.home{
+    margin-bottom: 50px;
+}
+.contenedor-principal{
+    
+    @media screen  and (min-width: 1024px){ 
+        flex-direction: row-reverse;
+    }
+}
+.photo  {
+    justify-content: flex-end;
+
+    
+}
+.card{
+    justify-content: flex-start;
+    .card-body {
+        padding: 80px;
+    }
+}
+.texto{
+    font-family: $raleway;
+    h3{
+        font-family: $oldstandardtt;
+        font-size:$xxx-large;
+        font-weight: $font-bold;
+        text-transform: uppercase;
+
+    }
+    p{
+        font-family: $raleway;
+        font-size: $large; 
+        font-weight:$font-regular ;
+        color: $quicksilver;
+    }
+    a{
+        color: $smokyblack;
+        border-color: $granitegray;
+
+    }
+}
